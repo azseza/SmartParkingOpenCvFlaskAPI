@@ -1,0 +1,28 @@
+{
+    "ParkingInitStatus": "True",
+    "ParkingID": 1,
+    "ParkingName": "firstTest",
+    "ParkingCapacity": 14,
+    "ParkingLotCoordinates": [
+        {
+            "_id": 0,
+            "ImageCoordonates": {"type" : "Polygon" ,
+                                 "coordinates" : [[[1.0, 1.0],[1.0, 3.0],[3.0, 3.0],[3.0, 1.0],[1.0, 1.0]]]},
+            "GpsCoordinates":{"type" : "Point" ,
+                            "coordinates" : [12.0, 11.2]} ,
+            "LotStatus": "L"
+        },
+        {
+            "_id": 1,
+           "ImageCoordonates": {"type" : "Polygon" ,
+                                 "coordinates" : [[[2.0, 3.0],[2.0, 3.0],[4.0, 5.0],[5.0, 3.0],[2.0, 3.0]]]},
+            "GpsCoordinates":{"type" : "Point" ,
+                            "coordinates" : [18.0, 15.2]} ,
+
+            "LotStatus": "L"
+        }
+    ],
+    "ParkingAdress": "Chotrana 2 , Sesame",
+    "ParkingPID": 1,
+    "ParkingDirectLink": "https://www.google.com"
+}
